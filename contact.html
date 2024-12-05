@@ -15,10 +15,12 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   
   <link href="css/aos.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
   
   
   <!--Fontawesome cdn-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="css/main.css" rel="stylesheet">
@@ -28,27 +30,34 @@
 
 <body class="contact-page">
 
+  
+
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-        <nav class="navbar navbar-expand-lg" id="navmenu">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: white;">
-            <div class="navbar-nav">
-              <a class="nav-link"  href="index.html">Home</a>
-              <a class="nav-link" href="about.html">About</a>
-              <a class="nav-link" href="events.html">Events</a>
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>       
-            </div>
-          </div>
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Upcoming Trends</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+                   
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-    
-      </div>    
-      
+
+      <!--<a class="btn-getstarted" href="courses.html">Get Started</a>-->
+
+    </div>
   </header>
+
+
   <main class="main">
 
     <!-- Page Title -->
@@ -75,7 +84,7 @@
           <div style="width:20%;">
 
             
-            <button type="button" class="btn btn-outline-succes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Quick Enquiry</button>
+            <button type="button" class="btn btn-outline-succes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Enquiry</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -115,7 +124,7 @@
     </div><!-- End Page Title -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section contact-custom">
 
        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -226,7 +235,10 @@
   <!-- Vendor JS Files -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/aos.js"></script>
-  
+  <script src="js/glightbox.min.js"></script>
+  <script src="js/purecounter_vanilla.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+
 
   <!-- Main JS File -->
   <script src="js/main.js"></script>

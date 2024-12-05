@@ -1901,14 +1901,7 @@ section,
   color: #fff;
   font-weight: bolder
 }
-.container-xl {
-  width:100%;
-  padding-left: 800px;
+.contact-custom {
+  padding-top: 50px;
 }
-.nav-link {
-  font-weight: bolder;
-  color: #059652;
-}
-.navbar-nav a:hover {
-  color: black;
-}
+
